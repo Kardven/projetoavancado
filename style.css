@@ -1,0 +1,102 @@
+header {
+  margin: 71px auto ;
+  background-color: #333;
+  width: 1083px;
+  height: 30px;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body, header{
+  background-color: #2F2E41;
+}
+
+.container {
+  width: 1082px;
+  margin: 101px auto 208px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+}
+.container h1, .container p {
+  text-justify:top;
+}
+.container{
+  color: #C2C2C2;
+  font-family: "open-sans", sans-serif;
+}
+#laptop{
+  width: 401px;
+  height: 283px;
+}
+span{
+  color: #00BFA6;
+}
+header img {
+  width: 100%;
+  height: auto;
+}
+H1 {
+  color: white;
+  font-family: "jetbrains Mono", sans-serif;
+}
+header{
+  margin-bottom: 101px;
+}
+body h1{
+  font-size: 36px;
+  margin-top: -40px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.container p{
+  text-align: center;
+  font-size: 16px;
+  line-height: 28px;
+}
+nav li {
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #C2C2C2;
+  font-weight: normal;
+}
+
+nav a:hover {
+  font-weight: bold;
+  color: #ffffff;
+}
+hr {
+  text-align: center;
+  border: none;
+  width: 568px;
+  border-top: 1px solid #00BFA6; /* Define a cor da linha */
+  }
+  footer {
+    font-family: "jetbrains mono", sans-serif;
+    font-size: 14px;
+    text-align: center; /* Centraliza o texto dentro do rodapé */
+    color: white;
+    position: fixed;
+    width: 100%; /* Ocupa toda a largura da tela */
+    margin-top: 23px; /* Define a margem superior para manter o rodapé acima do final da tela */
+  position: relative;
+    }
+    footer hr{
+      margin-bottom: 27px;
+    }
+  
+  #cadeado { 
+    position: fixed; /* Posicionamento fixo em relação à tela */
+    bottom: 20px; /* Define a distância do cadeado do rodapé */
+    left: 78px; /* Define a posição do cadeado */
+  }
